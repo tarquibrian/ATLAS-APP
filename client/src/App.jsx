@@ -31,6 +31,8 @@ function App() {
       </Routes>
       <Footer />
       <div>hola</div>
+
+      <div>hola</div>
     </BrowserRouter>
   );
 }
