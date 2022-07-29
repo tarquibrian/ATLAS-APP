@@ -1,6 +1,7 @@
 import { useState } from "react";
 
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import Footer from "./layout/navbar/Footer";
 import Navbar from "./layout/navbar/Navbar";
 
 import Categorias from "./pages/Categorias";
@@ -28,6 +29,7 @@ function App() {
         <Route path="/pago" element={<Pago />} />
         <Route path="/rating" element={<Rating />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 }
