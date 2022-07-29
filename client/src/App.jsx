@@ -30,6 +30,7 @@ function App() {
         <Route path="/rating" element={<Rating />} />
       </Routes>
       <Footer />
+      <div>hola</div>
     </BrowserRouter>
   );
 }
